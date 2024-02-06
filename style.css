@@ -115,7 +115,27 @@ button {
     border: none;
     border-radius: 5px;
 }
-
+#restartButton{
+    position: absolute;
+    top: 30vh;
+    left: 49vw;
+}
+#jumpButton{
+    position: absolute;
+    bottom: 15vh;
+    margin-bottom: 25px;
+    right: 10vw;
+}
+#moveRightButton{
+    position: absolute;
+    bottom: 10vh;
+    right: 10vw;
+}
+#moveLeftButton{
+    position: absolute;
+    bottom: 10vh;
+    left: 10vw;
+}
 button:hover {
     color: yellow;
     background-color: rgb(7, 148, 7);
