@@ -140,8 +140,8 @@ button:hover {
     color: yellow;
     background-color: rgb(7, 148, 7);
 }
-@media (min-width: 100px) {
-    button{
+@media (min-width: 1200px) {
+    #jumpButton, #moveRightButton, #moveLeftButton{
         display: none;
     }
 }

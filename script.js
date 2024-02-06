@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function() {
     };
 
     let obstacleInterval;
-    let initialObstacleSpeed = 5; // Initial speed of the obstacle
+    let initialObstacleSpeed = 4; // Initial speed of the obstacle
 
     setInterval(() => {
         const dino = document.querySelector('.dino');
