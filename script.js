@@ -154,6 +154,14 @@ document.addEventListener("DOMContentLoaded", function() {
         dino.style.left = (dinoX - 20) + "px"; // Adjust the value according to your preference
     }
 
+    jumpButton.addEventListener("touchstart", () => { jumping = true; });
+    jumpButton.addEventListener("touchend", () => { jumping = false; });
+    moveRightButton.addEventListener("touchstart", () => { movingRight = true; });
+    moveRightButton.addEventListener("touchend", () => { movingRight = false; });
+    moveLeftButton.addEventListener("touchstart", () => { movingLeft = true; });
+    moveLeftButton.addEventListener("touchend", () => { movingLeft = false; });
+
+
     function Clicked() {
         window.location.reload();
     }
