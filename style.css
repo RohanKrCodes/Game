@@ -108,16 +108,18 @@ button {
     width: 100px;
     height: 30px;
     margin: 5px;
-    background-color: #76a64f;
+    background-color: rgba(255, 255, 255, 0);
     color: rgb(23, 114, 175);
+    box-shadow: 2px 2px 5px rgb(28, 28, 28);
     font-size: 14px;
     cursor: pointer;
     border: none;
     border-radius: 5px;
 }
+
 #restartButton{
     position: absolute;
-    top: 30vh;
+    top: 15vh;
     left: 49vw;
 }
 #jumpButton{
@@ -138,7 +140,7 @@ button {
 }
 button:hover {
     color: yellow;
-    background-color: rgb(7, 148, 7);
+    background-color: rgba(42, 40, 40, 0.299);
 }
 @media (min-width: 1200px) {
     #jumpButton, #moveRightButton, #moveLeftButton{
